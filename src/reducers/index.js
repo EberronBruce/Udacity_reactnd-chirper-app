@@ -1,5 +1,5 @@
-import { combinedReducers } from 'redux'
-import authedUser form './authedUser'
+import { combineReducers } from 'redux'
+import authedUser from './authedUser'
 import users from './users'
 import tweets from './tweets'
 
