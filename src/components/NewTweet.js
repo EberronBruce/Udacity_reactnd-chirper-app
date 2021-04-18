@@ -27,6 +27,8 @@ class NewTweet extends Component {
   render() {
     const { text } = this.state
 
+    {/* todo: Redirect to / if submitted*/}
+
     const tweetLeft = 280 - text.length
 
     return(
