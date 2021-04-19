@@ -20,7 +20,7 @@ export function handleAddTweet (text, replyingTo) {
 
     return saveTweet({
       text,
-      auther: authedUser,
+      author: authedUser,
       replyingTo
     })
     .then((tweet) => dispatch(addTweet(tweet)))
